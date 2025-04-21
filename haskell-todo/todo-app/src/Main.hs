@@ -1,5 +1,8 @@
-module Main (main) where
+module Main where
+
+import qualified Domain.Todo.UseCase as TaskUseCase
 
 main :: IO ()
 main = do
-  putStrLn "hello world"
+  result <- TaskUseCase.createTask "Hello"
+  print result

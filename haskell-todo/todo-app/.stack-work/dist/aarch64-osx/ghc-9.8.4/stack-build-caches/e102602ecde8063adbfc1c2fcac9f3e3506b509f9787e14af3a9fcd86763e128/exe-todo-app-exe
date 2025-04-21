@@ -1,12 +1,16 @@
 /Users/yoohwakim/.ghcup/ghc/9.8.4/lib/ghc-9.8.4/lib/aarch64-osx-ghc-9.8.4/rts-1.0.2/include/ghcversion.h:
   hash: 95162794a3bf5e6167631fdd41a509846597231d523d0f21a76713b1f801373c
 ? /Users/yoohwakim/Desktop/Folder/Projects/devdevoildev/study-haskell/haskell-todo/todo-app/.stack-work/dist/aarch64-osx/ghc-9.8.4/build/todo-app-exe/autogen/Paths_todo_app.hs
-: hash: 9773cbec499d2c576209bb4b8a2a456e4d286e9e7325deedab9990aa913654c5
+: hash: aee05008bc67e790337ad54fc3d10aace587c218069812634af683e604d36b51
 ? /Users/yoohwakim/Desktop/Folder/Projects/devdevoildev/study-haskell/haskell-todo/todo-app/.stack-work/dist/aarch64-osx/ghc-9.8.4/build/todo-app-exe/autogen/cabal_macros.h
-: hash: 7cde912e97972baefe5a4d98e1b81bea76e37df99456530fa958d4d887b2a2d9
+: hash: 4547a76e4951559e9f65650d6644aa760f5ea83e8c9bf4e46d0386c81b43d8ca
 /Users/yoohwakim/Desktop/Folder/Projects/devdevoildev/study-haskell/haskell-todo/todo-app/package.yaml:
   hash: 01e45a9a5c752edf8f2293b8f27f22cd9accab76155c6d1701594bf7fd990a3b
+/Users/yoohwakim/Desktop/Folder/Projects/devdevoildev/study-haskell/haskell-todo/todo-app/src/Domain/Todo/Task.hs:
+  hash: 838ae78edd117cb1b86f759b27fa2e832f304e003efb11e4ccd850d2cbce75ed
+/Users/yoohwakim/Desktop/Folder/Projects/devdevoildev/study-haskell/haskell-todo/todo-app/src/Domain/Todo/UseCase.hs:
+  hash: fa5bb6be3032a9a4487c50766f96272ba9753187687dcc453bf5a26f7c1a203f
 /Users/yoohwakim/Desktop/Folder/Projects/devdevoildev/study-haskell/haskell-todo/todo-app/src/Main.hs:
-  hash: 36b4234172b25938ecf88a82f014fed25f81f0e4d80953379e7760a4c4060c13
+  hash: 251972e72e8d30bf938d2d989a0d703e12067c6f71b24dd73a66148d4a21afea
 /Users/yoohwakim/Desktop/Folder/Projects/devdevoildev/study-haskell/haskell-todo/todo-app/todo-app.cabal:
-  hash: 73e622c35ee4bef35f764f0cf7006f33abdadb506521671f37af79fc5d8fefe1
+  hash: e994df683e2f97c3f58e1d9b07bab75c0174120c51bb86e08c41f888e8e7b9c3
