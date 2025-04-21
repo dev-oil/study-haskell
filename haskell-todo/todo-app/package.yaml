@@ -1,0 +1,23 @@
+name: todo-app
+version: 0.1.0.0
+dependencies:
+  - base >= 4.7 && < 5
+  - text
+  - time
+  - ulid
+  - mtl
+  - errors
+  - stm
+  - postgresql-simple
+
+executables:
+  todo-app-exe:
+    main: Main.hs
+    source-dirs: src
+    ghc-options: -Wall
+    default-extensions:
+      - OverloadedStrings
+      - DeriveGeneric
+      - DuplicateRecordFields
+      - OverloadedLabels
+      - OverloadedRecordDot

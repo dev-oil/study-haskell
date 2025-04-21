@@ -1,0 +1,35 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.37.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           todo-app
+version:        0.1.0.0
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+
+executable todo-app-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_todo_app
+  hs-source-dirs:
+      src
+  default-extensions:
+      OverloadedStrings
+      DeriveGeneric
+      DuplicateRecordFields
+      OverloadedLabels
+      OverloadedRecordDot
+  ghc-options: -Wall
+  build-depends:
+      base >=4.7 && <5
+    , errors
+    , mtl
+    , postgresql-simple
+    , stm
+    , text
+    , time
+    , ulid
+  default-language: Haskell2010
