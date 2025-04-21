@@ -19,7 +19,13 @@ executable haskell-basic
   hs-source-dirs:      src
   main-is:             Main.hs
   default-language:    Haskell2010
-  build-depends:       base >= 4.7 && < 5
+  build-depends:       base >= 4.7 && < 5,
+                        text,
+                        time,
+                        mtl,
+                        lens,
+                        ulid,
+                        errors
   ghc-options:         -Wall
                        -Wcompat
                        -Widentities
@@ -29,3 +35,17 @@ executable haskell-basic
                        -Wmissing-home-modules
                        -Wpartial-fields
                        -Wredundant-constraints
+
+executable advanced-haskell
+  hs-source-dirs:      src/Day5/
+  main-is:             AdvancedHaskell.hs
+  default-language:    Haskell2010
+  build-depends:
+    base >= 4.7 && < 5,
+    text,
+    time,
+    mtl,
+    lens,
+    errors,
+    ulid
+  ghc-options: -Wall
